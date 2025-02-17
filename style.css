@@ -21,8 +21,8 @@
     font-size: 1.5em;
     color: #061602;
     text-align: center;
-    margin: 20px 0;
-    padding:0 30px;
+    margin: 20px;
+    padding: 30px;
 }
 nav {
     background-color: #0cb114d8;
@@ -47,4 +47,15 @@ nav a:hover {
 nav a.active {
     background-color: #4CAF50;
     color: white;
+}
+.card
+{
+    widt: 100px;
+    height: 500px;
+    border:1px solid #ddd;
+    background-color:lightgreen;
+    display: inline inline-block;
+};
+#card-img-container{
+    width: 100px
 }
